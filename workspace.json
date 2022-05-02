@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "sample-app": "apps/sample-app",
-    "sample-app-e2e": "apps/sample-app-e2e"
+    "sample-app-e2e": "apps/sample-app-e2e",
+    "sample-lib": "libs/sample-lib"
   }
 }

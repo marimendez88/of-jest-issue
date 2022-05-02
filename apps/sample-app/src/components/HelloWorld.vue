@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <Header />
     <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />
@@ -80,11 +81,14 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-
+import {Header} from '@of-jest-issue/sample-lib'
 export default defineComponent({
   name: '.',
   props: {
     msg: String,
+  },
+  components: {
+    Header,
   },
 });
 </script>
