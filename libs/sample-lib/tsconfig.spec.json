@@ -6,7 +6,8 @@
     "types": ["jest", "node"],
     "jsx": "preserve",
     "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true
   },
   "include": [
     "**/*.test.ts",
