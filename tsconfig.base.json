@@ -15,7 +15,10 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@of-jest-issue/sample-lib": ["libs/sample-lib/src/index.ts"]
+      "@of-jest-issue/sample-lib": ["libs/sample-lib/src/index.ts"],
+      "@of-jest-issue/second-library-nx": [
+        "libs/second-library-nx/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
