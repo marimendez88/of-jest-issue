@@ -8,7 +8,9 @@ module.exports = {
       'jest-transform-stub',
     '^.+.tsx?$': 'ts-jest',
   },
-  transformIgnorePatterns: ['node_modules/(?!@ionic)'],
+  transformIgnorePatterns: [
+    '/node_modules/(?!@ionic/vue|@ionic/vue-router|@ionic/core|@stencil/core|ionicons)',
+  ],
   moduleFileExtensions: ['ts', 'tsx', 'vue', 'js', 'json'],
   coverageDirectory: '../../coverage/libs/sample-lib',
   snapshotSerializers: ['jest-serializer-vue'],
