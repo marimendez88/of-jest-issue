@@ -2,23 +2,20 @@
 <ion-page>
   <ion-header>
 
-<h1>This is the Second Test of lib using NWRL</h1>
-<ThirdComponent />
+<h3>External 3 Library</h3>
   </ion-header>
 </ion-page>
 </template>
 
 <script lang="ts">
-import {ThirdComponent} from '@of-jest-issue/third-library-nx';
 import { defineComponent } from 'vue';
 import {IonPage, IonHeader, IonTitle} from '@ionic/vue';
 export default defineComponent({
-  name: 'SecondTest',
+  name: 'ThirdComponent',
   components: {
     IonPage,
     IonHeader,
     IonTitle,
-    ThirdComponent,
   },
 });
 </script>
