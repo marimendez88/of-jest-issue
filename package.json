@@ -25,6 +25,7 @@
         "@nrwl/jest": "14.1.7",
         "@nrwl/linter": "14.1.7",
         "@nrwl/nx-cloud": "14.0.5",
+        "@nrwl/web": "^14.1.7",
         "@nrwl/workspace": "14.1.7",
         "@nx-plus/vue": "14.0.0",
         "@types/jest": "27.0.2",
