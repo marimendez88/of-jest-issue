@@ -9,7 +9,9 @@ export default {
   },
   transform: {
     '^.+\\.[tj]sx?$': 'ts-jest',
+    '^.+.vue$': 'vue3-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
   coverageDirectory: '../../coverage/libs/third-library-nx',
+  transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
 };
