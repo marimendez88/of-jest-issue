@@ -1,5 +1,4 @@
 {
-  "root": "libs/second-library-nx",
   "sourceRoot": "libs/second-library-nx/src",
   "projectType": "library",
   "targets": {

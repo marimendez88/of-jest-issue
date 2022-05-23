@@ -1,5 +1,4 @@
 {
-  "root": "libs/sample-lib",
   "projectType": "library",
   "sourceRoot": "libs/sample-lib/src",
   "targets": {
