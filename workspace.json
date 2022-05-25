@@ -5,6 +5,8 @@
     "sample-app-e2e": "apps/sample-app-e2e",
     "sample-lib": "libs/sample-lib",
     "second-library-nx": "libs/second-library-nx",
-    "third-library-nx": "libs/third-library-nx"
+    "third-library-nx": "libs/third-library-nx",
+    "vite-app": "apps/vite-app",
+    "vite-app-e2e": "apps/vite-app-e2e"
   }
 }
