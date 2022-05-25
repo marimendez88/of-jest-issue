@@ -1,6 +1,6 @@
 module.exports = {
   displayName: 'vite-app',
-  preset: '../../jest.preset.ts',
+  preset: '../../jest.preset.js',
   transform: {
     '^.+.vue$': 'vue3-jest',
     '.+.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$':
