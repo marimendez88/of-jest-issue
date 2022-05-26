@@ -15,7 +15,7 @@ describe('SecondTest.vue', () => {
   it('renders a second message', () => {
     const wrapper = mount(SecondTest);
     expect(wrapper.text()).toBe(
-      'This is the Second Test of lib using NWRL'
+      'This is the Second Test of lib using NWRLExternal 3 Library'
     );
   });
 });

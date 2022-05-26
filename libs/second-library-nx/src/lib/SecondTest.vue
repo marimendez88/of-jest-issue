@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import {ThirdComponent} from '@of-jest-issue/third-library-nx';
+import {ThirdComponent} from '../../../third-library-nx/src/index';
 import { defineComponent } from 'vue';
 import {IonPage, IonHeader, IonTitle} from '@ionic/vue';
 export default defineComponent({
