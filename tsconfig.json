@@ -3,9 +3,11 @@
   "compilerOptions": {
     "rootDir": ".",
     "sourceMap": true,
-    "declaration": false,
+    "declaration": true,
     "moduleResolution": "node",
     "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowJs": true,
     "experimentalDecorators": true,
     "importHelpers": true,
     "target": "es2015",
@@ -15,7 +17,11 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@of-jest-issue/sample-lib": ["libs/sample-lib/src/index.ts"]
+      "@of-jest-issue/sample-lib": ["libs/sample-lib/src/index.ts"],
+      "@of-jest-issue/second-library-nx": [
+        "libs/second-library-nx/src/index.ts"
+      ],
+      "@of-jest-issue/third-library-nx": ["libs/third-library-nx/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

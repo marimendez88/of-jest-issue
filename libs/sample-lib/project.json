@@ -1,23 +1,22 @@
 {
-  "root": "libs/sample-lib",
-  "projectType": "library",
-  "sourceRoot": "libs/sample-lib/src",
-  "targets": {
-    "lint": {
-      "executor": "@nrwl/linter:eslint",
-      "outputs": ["{options.outputFile}"],
-      "options": {
-        "lintFilePatterns": ["libs/sample-lib/**/*.{ts,tsx,vue}"]
-      }
+    "projectType": "library",
+    "sourceRoot": "libs/sample-lib/src",
+    "targets": {
+        "lint": {
+            "executor": "@nrwl/linter:eslint",
+            "outputs": ["{options.outputFile}"],
+            "options": {
+                "lintFilePatterns": ["libs/sample-lib/**/*.{ts,tsx,vue}"]
+            }
+        },
+        "test": {
+            "executor": "@nrwl/jest:jest",
+            "outputs": ["coverage/libs/sample-lib"],
+            "options": {
+                "jestConfig": "libs/sample-lib/jest.config.ts",
+                "passWithNoTests": true
+            }
+        }
     },
-    "test": {
-      "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/libs/sample-lib"],
-      "options": {
-        "jestConfig": "libs/sample-lib/jest.config.js",
-        "passWithNoTests": true
-      }
-    }
-  },
-  "tags": []
+    "tags": []
 }

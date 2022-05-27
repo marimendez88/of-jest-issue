@@ -1,5 +1,5 @@
 module.exports = {
-  displayName: 'sample-app',
+  displayName: 'second-library-nx',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -13,5 +13,5 @@ module.exports = {
   },
   transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/sample-app'
+  coverageDirectory: '../../coverage/libs/second-library-nx',
 };

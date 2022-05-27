@@ -3,6 +3,8 @@
   "projects": {
     "sample-app": "apps/sample-app",
     "sample-app-e2e": "apps/sample-app-e2e",
-    "sample-lib": "libs/sample-lib"
+    "sample-lib": "libs/sample-lib",
+    "second-library-nx": "libs/second-library-nx",
+    "third-library-nx": "libs/third-library-nx"
   }
 }

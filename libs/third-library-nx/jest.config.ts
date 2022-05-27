@@ -1,17 +1,17 @@
-module.exports = {
-  displayName: 'sample-app',
+/* eslint-disable */
+export default {
+  displayName: 'third-library-nx',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
     },
   },
-  testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]sx?$': 'ts-jest',
     '^.+.vue$': 'vue3-jest',
   },
-  transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/sample-app'
+  coverageDirectory: '../../coverage/libs/third-library-nx',
+  transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
 };

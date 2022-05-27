@@ -1,17 +1,18 @@
-module.exports = {
-  displayName: 'sample-app',
+/* eslint-disable */
+export default {
+  displayName: 'sample-lib',
   preset: '../../jest.preset.js',
+  testEnvironment: 'jsdom',
   globals: {
     'ts-jest': {
       tsconfig: '<rootDir>/tsconfig.spec.json',
     },
   },
-  testEnvironment: 'node',
   transform: {
     '^.+\\.[tj]sx?$': 'ts-jest',
     '^.+.vue$': 'vue3-jest',
   },
-  transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/apps/sample-app'
+  coverageDirectory: '../../coverage/libs/sample-lib',
+  transformIgnorePatterns: ['/node_modules/(?!@ionic/core|@stencil/core|ionicons)'],
 };
